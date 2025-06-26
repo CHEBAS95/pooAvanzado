@@ -30,6 +30,7 @@ class BankAccount {
   getBalance() {
     console.log("Imprimiendo saldo...");
     console.log(`Saldo actual: $${this.#balance}`);
+    
     return this.#balance;
   }
 
